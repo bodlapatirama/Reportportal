@@ -85,9 +85,9 @@ services:
       - ./data/postgres:/var/lib/postgresql/data
       # For windows host
       # - postgres:/var/lib/postgresql/data
-    # If you need to access the DB locally. Could be a security risk to expose DB.
-    #    ports:
-    #      - "5432:5432"
+      # If you need to access the DB locally. Could be a security risk to expose DB.
+      #    ports:
+      #      - "5432:5432"
     command:
       -c checkpoint_completion_target=0.9
       -c work_mem=96MB
