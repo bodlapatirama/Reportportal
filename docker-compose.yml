@@ -84,9 +84,9 @@ services:
     image: postgres:12-alpine
     shm_size: '512m'
     environment:
-      POSTGRES_USER: rpuser
-      POSTGRES_PASSWORD: rppass
-      POSTGRES_DB: reportportal
+       POSTGRES_USER: rpuser
+       POSTGRES_PASSWORD: rppass
+       POSTGRES_DB: reportportal
     volumes:
       # For unix host
       - ./data/postgres:/var/lib/postgresql/data
