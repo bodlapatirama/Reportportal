@@ -11,7 +11,7 @@
 ##      '-d' -- enables daemon mode
 ##      '--force-recreate' -- forces re-recreating of all containers
 
-version: '2.2'
+version: '3.0'
 services:
 
   gateway:
